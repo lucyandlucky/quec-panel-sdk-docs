@@ -1,0 +1,46 @@
+import{_ as n,o as a,c as p,al as l}from"./chunks/framework.GnR-YWkE.js";const u=JSON.parse('{"title":"CLI 安裝","description":"","frontmatter":{},"headers":[],"relativePath":"zh-HK/cli/install.md","filePath":"zh-HK/cli/install.md","lastUpdated":1771838368000}'),e={name:"zh-HK/cli/install.md"};function i(c,s,t,o,r,d){return a(),p("div",null,[...s[0]||(s[0]=[l(`<h1 id="cli-安裝" tabindex="-1">CLI 安裝 <a class="header-anchor" href="#cli-安裝" aria-label="Permalink to “CLI 安裝”">​</a></h1><div class="info custom-block"><p class="custom-block-title custom-block-title-default">INFO</p><p>可以查看 <a href="./../guides/cli-install.html">快速開始 - 安裝 CLI 工具</a>。</p></div><div class="language--"><button title="Copy Code" class="copy"></button><span class="lang">-</span><pre class="shiki shiki-themes github-light github-dark" style="--shiki-light:#24292e;--shiki-dark:#e1e4e8;--shiki-light-bg:#fff;--shiki-dark-bg:#24292e;" tabindex="0" dir="ltr"><code><span class="line"><span></span></span>
+<span class="line"><span># 安裝 CLI 工具</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>QuecPanel CLI (\`@quec/oem-cli\`) 是開發面板必不可少的工具。它提供了項目創建和構建等核心功能。</span></span>
+<span class="line"><span>::: info</span></span>
+<span class="line"><span>如果之前安裝過 CLI，可以略過本章節。</span></span>
+<span class="line"><span>:::</span></span>
+<span class="line"><span>::: tip</span></span>
+<span class="line highlighted"><span>如果你想了解更多關於 CLI 的信息，可以查看 [CLI 工具](/zh-HK/cli/)。</span></span>
+<span class="line"><span>:::</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>## 環境要求</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>- **Node.js**: &gt;= 14.0.0</span></span>
+<span class="line"><span>- **npm** or **yarn**</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>## 安裝步驟</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>推薦使用全局安裝，以便在任何目錄下都能使用 \`quecApp\` 命令。</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>::: code-group</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>\`\`\`bash [npm]</span></span>
+<span class="line"><span>npm install -g @quec/oem-cli --registry http://192.168.23.184:4873</span></span>
+<span class="line"><span>\`\`\`</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>\`\`\`bash [yarn]</span></span>
+<span class="line"><span>yarn global add @quec/oem-cli --registry http://192.168.23.184:4873</span></span>
+<span class="line"><span>\`\`\`</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>:::</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>::: warning 注意</span></span>
+<span class="line"><span>由於使用了私有倉庫地址，請確保您的網絡環境可以正常訪問 \`http://192.168.23.184:4873\`。</span></span>
+<span class="line"><span>:::</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>## 驗證安裝</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>安裝完成後，可以通過查看版本號來驗證安裝是否成功：</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>\`\`\`bash</span></span>
+<span class="line"><span>quecApp -v</span></span>
+<span class="line"><span># 輸出示例：1.32.0</span></span>
+<span class="line"><span>\`\`\`</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>如果看到版本號輸出，說明 CLI 已安裝就緒。</span></span></code></pre></div>`,3)])])}const g=n(e,[["render",i]]);export{u as __pageData,g as default};
